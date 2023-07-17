@@ -13,13 +13,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-            - name: Set up Python 3.9.17
+            - name: Set up Python 3.9
               uses: actions/setup-python@v1
               with:
-                python-version: 3.9.17
+                python-version: 3.9
             - name: Install dependencies
               run: |
-                sudo apt install python3.9.17
+                sudo apt install python3.9
                 sudo apt-get install python3-pip
                 sudo apt-get update -y
                 sudo apt-get install python-pytest
