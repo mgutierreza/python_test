@@ -10,6 +10,9 @@ def test_suma(test_calculadora):
     assert test_calculadora.sumar(2, 3) == 5
 
 def test_suma2(test_calculadora):
+    assert test_calculadora.sumar(10, 20) == 30
+
+def test_suma2(test_calculadora):
     assert test_calculadora.sumar(2, 10) == 12
 
 def test_resta(test_calculadora):
